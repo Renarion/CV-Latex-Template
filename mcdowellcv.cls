@@ -50,7 +50,7 @@
 \LoadClass[\papersize,\mainfontsize]{article}
 
 % Set document margins
-\usepackage[left=0.6in,top=0.45in,right=0.6in,bottom=0.45in]{geometry}
+\usepackage[left=0.20in,top=0.20in,right=0.20in,bottom=0.20in]{geometry}
 
 % Set font face
 \usepackage{fontspec}
@@ -100,11 +100,11 @@ Ligatures={TeX, NoCommon, NoDiscretionary}]{\mainfontface}
 \ifthenelse{\equal{\platformname}{\notwindowsname}}{
   \def\namespaceskip{0.575em}
   \def\afterheaderspace{1.1pt}
-  \def\beforesectionheaderspace{5pt}
+  \def\beforesectionheaderspace{2pt}
   \def\sectionheadermargin{9pt}
-  \def\beforesectionheaderhrulespace{2.85pt}
+  \def\beforesectionheaderhrulespace{2pt}
   \def\sectionheaderhrlueheight{0.518pt}
-  \def\aftersectionheaderspace{-0.8pt}
+  \def\aftersectionheaderspace{1pt}
   
   \ifpapersize
     \def\aftersinglelinesubsectionheaderspace{-4.75pt}
@@ -116,15 +116,15 @@ Ligatures={TeX, NoCommon, NoDiscretionary}]{\mainfontface}
   \def\aftermultilinesubsectionheaderspace{-7.75pt}
   \def\afteremptysubsectionheaderspace{1.25pt}
   \def\subsectionmargin{9pt}
-  \def\aftersubsectionspace{2.1pt}
+  \def\aftersubsectionspace{0pt}
 }{
   \def\namespaceskip{0.5em}
   \def\afterheaderspace{3pt}
   \def\beforesectionheaderspace{5pt}
   \def\sectionheadermargin{9pt}
-  \def\beforesectionheaderhrulespace{3pt}
+  \def\beforesectionheaderhrulespace{4pt}
   \def\sectionheaderhrlueheight{0.5pt}
-  \def\aftersectionheaderspace{-3pt}
+  \def\aftersectionheaderspace{2.5pt}
   
   \ifpapersize
     \def\aftersinglelinesubsectionheaderspace{-4pt}
